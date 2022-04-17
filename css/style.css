@@ -10,6 +10,18 @@ body {
 
 }
 
+p, 
+h1, 
+h2, 
+h3, 
+h4 {
+    margin: 0;
+}
+
+ul,ol {
+    padding-left: 0;
+    margin: 0;
+}
 
 /* WebStudio */
 
@@ -26,6 +38,15 @@ body {
 .logo-akcent{
     color: var(--akcent-color);
 }
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
 
 /* Студiя */
 
@@ -71,13 +92,16 @@ body {
     color: var(--akcent-color);
     cursor: pointer;
 }
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 /*герой*/
 
 .hero{
     background-color: #2F303A;
     text-align: center;
-
 }
 
 .hero-title{
@@ -87,8 +111,9 @@ body {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
 }
 
 .hero-button{
