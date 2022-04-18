@@ -23,9 +23,20 @@ ul,ol {
     margin: 0;
 }
 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+
 /* WebStudio */
 
 .header-logo{
+    display: flex;
+    
     font-family: 'Raleway', Tahoma, sans-serif;
     color: var(--primery-text-color);
     font-weight: 700;
@@ -39,18 +50,16 @@ ul,ol {
     color: var(--akcent-color);
 }
 
-.container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    background-color: aqua;
+.nav-header{
+    display: flex;
+    align-items: center;
 }
-
 
 /* Студiя */
 
 .header-list{
+    display: flex;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -76,6 +85,8 @@ ul,ol {
 }
 
 .header-link-second{
+    display: flex;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -88,13 +99,15 @@ ul,ol {
     text-decoration: none;
 }
 
-.header-link-second:hover,:focus{
+.header-link-second:hover,
+.header-link-second:focus{
     color: var(--akcent-color);
     cursor: pointer;
 }
+
 .header{
     padding-top: 24px;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 }
 
 /*герой*/
@@ -111,9 +124,11 @@ ul,ol {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    
     padding-top: 200px;
     padding-bottom: 280px;
-    padding-left: 452px;
+    padding-left: 253px;
+    padding-right: 253px;
 }
 
 .hero-button{
@@ -124,6 +139,8 @@ ul,ol {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    border-radius: 4px;
+   
 
 }
 
