@@ -119,6 +119,7 @@ ul,ol {
     text-align: center;
 }
 
+
 .hero-title{
     color:var(--title-white-color);
     font-weight: 900;
@@ -127,10 +128,11 @@ ul,ol {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    padding-top: 200px;
-    padding-bottom: 280px;
-    padding-left: 253px;
-    padding-right: 253px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-left: 253px;
+    margin-right: 253px;
+    margin-bottom: 30px;
 }
 
 .hero-button{
@@ -142,6 +144,11 @@ ul,ol {
     line-height: 1.9;
     letter-spacing: 0.06em;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    box-sizing: border-box;
+    margin-bottom: 200px;
+
 }
 
 /*переваги вебстудії*/
@@ -343,6 +350,7 @@ ul,ol {
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    border-radius: 4px;
 }
 
 .hero-button-portfolio:hover,
@@ -358,6 +366,7 @@ ul,ol {
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    border-radius: 4px;
 }
 
 .hero-button-portfolio-acent:hover,
@@ -378,6 +387,9 @@ ul,ol {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    padding-top: 20px;
+    padding-bottom: 4px;
 }
 
 .portfolio-text{
@@ -386,6 +398,7 @@ ul,ol {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+    padding-bottom: 20px;
 }
 
 
