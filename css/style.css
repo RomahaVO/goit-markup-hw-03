@@ -23,11 +23,7 @@ ul,ol {
     margin: 0;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 .container{
     width: 1200px;
@@ -42,7 +38,7 @@ ul,ol {
 
 .header-logo{
     display: flex;
-    
+
     font-family: 'Raleway', Tahoma, sans-serif;
     color: var(--primery-text-color);
     font-weight: 700;
@@ -87,7 +83,7 @@ ul,ol {
 }
 
 .header-link.current {
-    color: var(--akcent-color)
+    color: var(--akcent-color);
 }
 
 .header-link-second{
@@ -113,7 +109,7 @@ ul,ol {
 
 .header{
     padding-top: 24px;
-    /* padding-bottom: 25px; */
+    padding-bottom: 25px;
 }
 
 /*герой*/
@@ -121,9 +117,6 @@ ul,ol {
 .hero{
     background-color: #2F303A;
     text-align: center;
-
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .hero-title{
@@ -149,10 +142,6 @@ ul,ol {
     line-height: 1.9;
     letter-spacing: 0.06em;
     border-radius: 4px;
-
-
-
-
 }
 
 /*переваги вебстудії*/
@@ -185,6 +174,8 @@ ul,ol {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    padding-bottom: 10px;
 }
 
 .benefits-text{
@@ -199,6 +190,11 @@ ul,ol {
 
 .about-list{
     list-style: none;
+    padding-bottom: 94px;
+}
+
+.about-title{
+    padding-bottom: 50px;
 }
 
 .about-title, .team-title{
@@ -211,8 +207,15 @@ ul,ol {
 
 /* Наша команда */
 
+.team-title{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .team-list{
     list-style: none;
+    
+    padding-bottom: 94px;
 }
 
 .team-title-second{
@@ -220,6 +223,9 @@ ul,ol {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .team-text{
@@ -228,6 +234,8 @@ ul,ol {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
+    padding-bottom: 30px;
 }
 
 /* Підвал */
@@ -243,10 +251,15 @@ ul,ol {
     text-decoration: none;
     letter-spacing: 0.03em;
     cursor: default;
+
+    padding-top: 60px;
+
 }
 
 .footer-list{
     list-style: none;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .footer-address{
@@ -274,6 +287,11 @@ ul,ol {
 }
 
 /* портфоліо*/
+
+.header-portfolio{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .header-logo-portfolio{
     font-family: 'Raleway', Tahoma, sans-serif;
@@ -314,6 +332,7 @@ ul,ol {
 
 .button-portfolio-list{
     list-style: none;
+    padding-top: 94px;
 }
 
 .hero-button-portfolio{
@@ -350,6 +369,8 @@ ul,ol {
 
 .portfolio-list{
     list-style: none;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
 .portfolio-title{
@@ -365,7 +386,6 @@ ul,ol {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-
 }
 
 
