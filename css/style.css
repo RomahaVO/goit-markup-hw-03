@@ -23,6 +23,12 @@ ul,ol {
     margin: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -115,6 +121,9 @@ ul,ol {
 .hero{
     background-color: #2F303A;
     text-align: center;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .hero-title{
@@ -140,7 +149,9 @@ ul,ol {
     line-height: 1.9;
     letter-spacing: 0.06em;
     border-radius: 4px;
-   
+
+
+
 
 }
 
@@ -158,6 +169,11 @@ ul,ol {
     clip-path: inset(50%);
     margin: -1px;
 } 
+
+.benefits{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .benefits-list{
     list-style: none;
