@@ -37,8 +37,6 @@ ul,ol {
 /* WebStudio */
 
 .header-logo{
-    display: flex;
-
     font-family: 'Raleway', Tahoma, sans-serif;
     color: var(--primery-text-color);
     font-weight: 700;
@@ -46,6 +44,8 @@ ul,ol {
     line-height: 1.2;
     text-decoration: none;
     letter-spacing: 0.03em;
+
+    margin-right: 93px;
 }
 
 .logo-akcent{
@@ -69,6 +69,11 @@ ul,ol {
     letter-spacing: 0.02em;
 }
 
+.header-item:not(:last-child){
+    margin-right: 50px;
+
+}
+
 .header-link{
     color: var(--primery-text-color);
     text-decoration: none;
@@ -84,6 +89,10 @@ ul,ol {
 
 .header-link.current {
     color: var(--akcent-color);
+}
+
+.header-connect{
+    margin-left: auto;
 }
 
 .header-link-second{
@@ -105,6 +114,10 @@ ul,ol {
 .header-link-second:focus{
     color: var(--akcent-color);
     cursor: pointer;
+}
+
+.header-tel{
+    margin-left: 50px;
 }
 
 .header{
@@ -171,6 +184,8 @@ ul,ol {
 
 .benefits-list{
     list-style: none;
+    display: flex;
+    margin-left: -30px;
 }
 
 .benefits-title{
@@ -183,6 +198,12 @@ ul,ol {
     padding-bottom: 10px;
 }
 
+.benefits-item{
+    flex-basis:calc(100%/3 - 30px);
+    margin-left: 30px;
+}
+
+
 .benefits-text{
     color: var(--second-text-color);
     font-weight: 400;
@@ -193,9 +214,20 @@ ul,ol {
 
 /*Чим ми займаємся*/
 
+
+
 .about-list{
     list-style: none;
     padding-bottom: 94px;
+    display: flex;
+    margin-left: -30px;
+}
+
+.about-img{
+    display: flex;
+    flex-basis:calc(100%/3 - 30px);
+    margin-left: 30px;
+
 }
 
 .about-title{
@@ -212,6 +244,8 @@ ul,ol {
 
 /* Наша команда */
 
+
+
 .team-title{
     padding-top: 94px;
     padding-bottom: 50px;
@@ -220,7 +254,14 @@ ul,ol {
 .team-list{
     list-style: none;
     
-    padding-bottom: 94px;
+    padding-bottom: 94px; 
+    display: flex; 
+    margin-left: -30px;
+}
+
+.team-item{
+    flex-basis: calc(100%/4 - 30px);
+    margin-left: 30px;
 }
 
 .team-title-second{
@@ -296,6 +337,7 @@ ul,ol {
 .header-portfolio{
     padding-top: 24px;
     padding-bottom: 25px;
+    display: flex;
 }
 
 .header-logo-portfolio{
@@ -307,6 +349,8 @@ ul,ol {
     text-decoration: none;
     letter-spacing: 0.03em;
     cursor: default;
+
+    margin-right: 93px;
 }
 
 .logo-akcent-portfolio{
@@ -335,9 +379,16 @@ ul,ol {
     cursor: default;
 }
 
+.header-tel-portfolio{
+    margin-left: 50px;
+}
+
 .button-portfolio-list{
     list-style: none;
     padding-top: 94px;
+
+    display: flex;
+    justify-content: center;
 }
 
 .hero-button-portfolio{
@@ -378,6 +429,15 @@ ul,ol {
     list-style: none;
     padding-top: 50px;
     padding-bottom: 94px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+.portfolio-list-item{
+    flex-basis: calc(100%/ 9 -30px);
+    margin-left: 30px;
 }
 
 .portfolio-title{
