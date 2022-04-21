@@ -127,12 +127,11 @@ ul,ol {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
-    box-sizing: border-box;
-    margin-top: 200px;
-    margin-left: 253px;
-    margin-right: 253px;
-    margin-bottom: 30px;
+
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-left: 253px;
+    padding-right: 253px;
 }
 
 .hero-button{
@@ -146,7 +145,6 @@ ul,ol {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-    box-sizing: border-box;
     margin-bottom: 200px;
 
 }
